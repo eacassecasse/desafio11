@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 11 Boracodar - Login Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&amp;display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="./js/index.js" defer=""></script>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <main>
+    <div class="main-content">
+      <img class="logo" src="./img/logo.png" alt="vertigo-logo" srcset="">
+      <form action="#" id="login-form">
+        <div class="form-header">
+          <h1>Acesse a plataforma</h1>
+          <p>Faça login ou registre-se para começar a construir seus projetos hoje.</p>
+        </div>
+        <div class="input-group">
+          <div class="form-group" id="group-email">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+          </div>
+
+          <div class="form-group" id="group-senha">
+            <label for="senha" class="label-senha">Senha
+              <a href="#">Esqueceu a senha?</a></label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            <img src="./img/eye.svg" alt="eye-password-show-hide" id="visibility-toggle"
+              class="password-visibility-toggle">
+          </div>
+          <button type="button" class="btn-primary" id="login-button">Entrar</button>
+          <p>Ainda não te conta?<a href="#">Inscreva-se</a></p>
+        </div>
+      </form>
+    </div>
+    <div class="hero-bg"></div>
+  </main>
+</body>
+
+</html>
